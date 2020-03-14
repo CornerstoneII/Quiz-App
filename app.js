@@ -1,7 +1,7 @@
 function Redirect(){
     var name = $('#usrname').val().trim();
     if (name.length > 0) {
-        window.location = "index.html";
+        window.location = "welcomepage.html";
         localStorage.setItem("username", name);
         return false;
    }
